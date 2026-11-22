@@ -1,0 +1,149 @@
+.wrap {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(
+            ellipse at 50% 40%,
+            rgba(91, 67, 139, 0.22),
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at 50% 100%,
+            rgba(160, 123, 65, 0.08),
+            transparent 50%
+        ),
+        #090B17;
+}
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background-image:
+        radial-gradient(3px 3px at 10% 20%, #D6B46A 50%, transparent 100%),
+        radial-gradient(1px 1px at 18% 65%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(2px 2px at 25% 75%, #D6B46A 50%, transparent 100%),
+        radial-gradient(1px 1px at 35% 30%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(3px 3px at 45% 15%, #D6B46A 50%, transparent 100%),
+        radial-gradient(1px 1px at 65% 35%, #D6B46A 50%, transparent 100%),
+        radial-gradient(3px 3px at 72% 60%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(1px 1px at 80% 70%, #D6B46A 50%, transparent 100%),
+        radial-gradient(2px 2px at 92% 25%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(1px 1px at 15% 90%, #D6B46A 50%, transparent 100%),
+        radial-gradient(2px 2px at 30% 48%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(3px 3px at 85% 15%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(1px 1px at 95% 85%, #D6B46A 50%, transparent 100%),
+        radial-gradient(2px 2px at 7% 45%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(1px 1px at 40% 90%, #D6B46A 50%, transparent 100%),
+        radial-gradient(2px 2px at 60% 10%, #FFFFFF 50%, transparent 100%),
+        radial-gradient(1px 1px at 75% 92%, #D6B46A 50%, transparent 100%),
+        radial-gradient(2px 2px at 88% 48%, #FFFFFF 50%, transparent 100%);
+
+    opacity: 0.8;
+}
+
+.star1,
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6,
+.star7,
+.star8,
+.star9,
+.star10,
+.star11,
+.star12 {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    color: #D6B46A;
+    text-shadow: 0 0 12px rgba(214, 180, 106, 0.8);
+}
+
+.star1 {
+    top: 12%;
+    left: 15%;
+    font-size: 30px;
+}
+
+.star2 {
+    top: 25%;
+    right: 13%;
+    font-size: 24px;
+}
+
+.star3 {
+    top: 48%;
+    left: 9%;
+    font-size: 35px;
+}
+
+.star4 {
+    bottom: 18%;
+    right: 16%;
+    font-size: 28px;
+}
+
+.star5 {
+    bottom: 12%;
+    left: 23%;
+    font-size: 22px;
+}
+
+.star6 {
+    top: 8%;
+    left: 45%;
+    font-size: 15px;
+}
+
+.star7 {
+    top: 38%;
+    right: 5%;
+    font-size: 13px;
+}
+
+.star8 {
+    top: 65%;
+    left: 7%;
+    font-size: 18px;
+}
+
+.star9 {
+    top: 82%;
+    left: 42%;
+    font-size: 13px;
+}
+
+.star10 {
+    top: 90%;
+    right: 35%;
+    font-size: 17px;
+}
+
+.star11 {
+    top: 35%;
+    left: 4%;
+    font-size: 12px;
+}
+
+.star12 {
+    top: 58%;
+    right: 8%;
+    font-size: 16px;
+}

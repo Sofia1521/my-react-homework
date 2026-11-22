@@ -1,0 +1,56 @@
+.form {
+    width: min(80%, 550px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+
+    padding: 25px;
+}
+
+.magicInput {
+    width: 100%;
+    padding: 16px 20px;
+
+    background: rgba(8, 10, 28, 0.75);
+    border: 1px solid rgba(214, 180, 106, 0.55);
+    border-radius: 10px;
+
+    color: #F3EBD8;
+    font-size: 16px;
+    text-align: center;
+
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.magicInput::placeholder {
+    color: rgba(235, 216, 255, 0.65);
+    font-style: italic;
+}
+
+.magicInput:focus {
+    border-color: #E8C878;
+    box-shadow: 0 0 15px rgba(214, 180, 106, 0.25);
+}
+
+.formBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media(max-width: 480px) {
+    .form {
+        width: 90%;
+        padding: 18px;
+        gap: 16px;
+    }
+
+    .formBtn {
+        gap: 12px;
+    }
+}
